@@ -39,7 +39,8 @@
       crossorigin="anonymous"
     ></script>
     <script>
-        const currentTime = new Date();
+      setInterval(() => {
+         const currentTime = new Date();
         const hours = currentTime.getHours().toString().padStart(2, '0');
         const minutes = currentTime.getMinutes().toString().padStart(2, '0');
         const seconds = currentTime.getSeconds().toString().padStart(2, '0');
@@ -53,6 +54,8 @@
         if (currentDayElement) {
             currentDayElement.style.color = "red";
         }
+       }, 1000);
+        
         
 
 
