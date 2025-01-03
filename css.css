@@ -1,0 +1,26 @@
+.second_row {
+  display: flex;
+  justify-content: space-around;
+  border: solid black;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+* {
+  background-color: black;
+}
+.main {
+  /* margin: 30%; */
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+}
+.first_row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 150px;
+}
+.red {
+  /* background-color: red; */
+  height: 40px;
+}
